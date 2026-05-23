@@ -21,10 +21,10 @@ echo "<b>5. ltrim — Удаление пробелов слева:</b><br>";
 echo "'" . ltrim($spaced) . "'<br><br>";
 
 echo "<b>6. md5 — Хеширование (MD5):</b><br>";
-echo md5("Syida2026") . "<br><br>";
+echo md5("Aijamal2026") . "<br><br>";
 
 echo "<b>7. sha1 — Хеширование (SHA1):</b><br>";
-echo sha1("Syida2026") . "<br><br>";
+echo sha1("Aijamal2026") . "<br><br>";
 
 echo "<b>8. nl2br — Замена переноса строки на тег br:</b><br>";
 echo nl2br("Айжамал\nИСТ\n2026") . "<br><br>";
@@ -63,7 +63,7 @@ $code = "<script>alert('Hello');</script>";
 echo htmlspecialchars($code) . "<br><br>";
 
 echo "<b>19. htmlspecialchars_decode — Обратное преобразование из сущностей:</b><br>";
-$encoded = "&lt;b&gt;Сыйда&lt;/b&gt;";
+$encoded = "&lt;b&gt;Айжамал&lt;/b&gt;";
 echo htmlspecialchars_decode($encoded) . "<br><br>";
 
 echo "<b>20. htmlentities — Преобразование всех возможных символов в сущности:</b><br>";
